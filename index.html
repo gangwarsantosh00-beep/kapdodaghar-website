@@ -3,142 +3,140 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Kapdo Da Ghar - Trendy fashion and clothing manufacturing for men, women and kids.">
-  <title>Kapdo Da Ghar | Trendy Fashion & Clothing Manufacturer</title>
+  <title>KapdoDaGhar.in | Trendy Fashion | Best Prices</title>
+  <meta name="description" content="KapdoDaGhar.in - Trendy fashion for men, women and kids at best prices.">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header">
-    <a class="brand" href="#home">
-      <img src="assets/kd-icon-logo.jpg" alt="Kapdo Da Ghar logo">
-      <span>Kapdo Da Ghar</span>
-    </a>
-    <button class="menu-btn" aria-label="Open menu">☰</button>
-    <nav class="nav">
-      <a href="#home">Home</a>
-      <a href="#collections">Collections</a>
-      <a href="#manufacturing">Manufacturing</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-    </nav>
-    <a class="nav-cta" href="https://wa.me/919012758515?text=Hello%20Kapdo%20Da%20Ghar%2C%20I%20want%20to%20know%20more%20about%20your%20products." target="_blank" rel="noopener">WhatsApp Us</a>
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="#"><img src="logo.png" alt="KapdoDaGhar.in"></a>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#men">Men</a>
+        <a href="#women">Women</a>
+        <a href="#kids">Kids</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="cart-btn" onclick="toggleCart()">🛒 Cart <span id="cartCount">0</span></button>
+    </div>
   </header>
 
   <main>
     <section id="home" class="hero">
-      <div class="hero-overlay"></div>
-      <div class="hero-content">
-        <p class="eyebrow">TRENDY FASHION • BEST PRICES</p>
-        <h1>Style Made<br><span>For Every You.</span></h1>
-        <p class="hero-text">Premium clothing for Men, Women & Kids — designed with comfort, quality and modern fashion in mind.</p>
-        <div class="hero-actions">
-          <a class="btn btn-gold" href="#collections">Explore Collections</a>
-          <a class="btn btn-outline" href="https://wa.me/919012758515?text=Hello%20Kapdo%20Da%20Ghar%2C%20please%20share%20your%20latest%20collection." target="_blank" rel="noopener">Get Latest Collection</a>
-        </div>
-        <div class="hero-points">
-          <span>✓ Quality Fabrics</span>
-          <span>✓ Modern Designs</span>
-          <span>✓ Direct Manufacturer</span>
-        </div>
-      </div>
-      <div class="hero-logo-card">
-        <img src="assets/kapdo-da-ghar-logo.jpg" alt="Kapdo Da Ghar - Trendy Fashion Best Prices">
-      </div>
-    </section>
-
-    <section class="trust-strip">
-      <div><strong>MEN</strong><span>Modern everyday styles</span></div>
-      <div><strong>WOMEN</strong><span>Elegant & trendy fashion</span></div>
-      <div><strong>KIDS</strong><span>Comfortable playful wear</span></div>
-      <div><strong>MANUFACTURING</strong><span>Quality-focused production</span></div>
-    </section>
-
-    <section id="collections" class="section">
-      <div class="section-head">
-        <p class="eyebrow">OUR COLLECTIONS</p>
-        <h2>Fashion for <span>Everyone</span></h2>
-        <p>Discover versatile styles for every wardrobe. For catalogue, sizes, colours and bulk enquiries, message us on WhatsApp.</p>
-      </div>
-      <div class="collection-grid">
-        <article class="collection-card men">
-          <div class="card-shade"></div>
-          <div class="card-content"><span>01</span><h3>Men</h3><p>Smart, comfortable and contemporary clothing.</p><a href="https://wa.me/919012758515?text=Hello%20Kapdo%20Da%20Ghar%2C%20please%20share%20the%20Men%27s%20collection." target="_blank" rel="noopener">View Collection →</a></div>
-        </article>
-        <article class="collection-card women">
-          <div class="card-shade"></div>
-          <div class="card-content"><span>02</span><h3>Women</h3><p>Elegant fashion made for everyday confidence.</p><a href="https://wa.me/919012758515?text=Hello%20Kapdo%20Da%20Ghar%2C%20please%20share%20the%20Women%27s%20collection." target="_blank" rel="noopener">View Collection →</a></div>
-        </article>
-        <article class="collection-card kids">
-          <div class="card-shade"></div>
-          <div class="card-content"><span>03</span><h3>Kids</h3><p>Fun, comfortable and easy-to-wear styles.</p><a href="https://wa.me/919012758515?text=Hello%20Kapdo%20Da%20Ghar%2C%20please%20share%20the%20Kids%27%20collection." target="_blank" rel="noopener">View Collection →</a></div>
-        </article>
-      </div>
-    </section>
-
-    <section id="manufacturing" class="dark-section">
-      <div class="split">
+      <div class="container hero-grid">
         <div>
-          <p class="eyebrow">CLOTHING MANUFACTURING</p>
-          <h2>From Fabric to <span>Finished Fashion.</span></h2>
-          <p>Kapdo Da Ghar combines modern styling with a quality-focused manufacturing approach. We work across Men, Women and Kids categories with an emphasis on fit, fabric and finishing.</p>
-          <div class="process">
-            <div><b>01</b><span>Fabric Selection</span></div>
-            <div><b>02</b><span>Design & Sampling</span></div>
-            <div><b>03</b><span>Cutting & Stitching</span></div>
-            <div><b>04</b><span>Finishing & Quality Check</span></div>
-          </div>
+          <p class="eyebrow">KAPDODAGHAR.IN</p>
+          <h1>Trendy Fashion.<br><span>Best Prices.</span></h1>
+          <p class="hero-text">Discover stylish clothing for Men, Women & Kids — made for your everyday look.</p>
+          <a class="btn" href="#shop">Shop Now</a>
         </div>
-        <div class="manufacture-box">
-          <img src="assets/kd-icon-logo.jpg" alt="Kapdo Da Ghar emblem">
-          <p>QUALITY • STYLE • VALUE</p>
-          <h3>Built for modern fashion.</h3>
+        <div class="hero-logo">
+          <img src="logo.png" alt="KapdoDaGhar logo">
         </div>
       </div>
     </section>
 
-    <section id="about" class="section about">
-      <div class="section-head left">
-        <p class="eyebrow">ABOUT KAPDO DA GHAR</p>
-        <h2>A clothing brand with a <span>manufacturer's mindset.</span></h2>
-        <p>We aim to make fashionable clothing accessible while keeping quality, comfort and value at the centre of every collection.</p>
-      </div>
-      <div class="feature-grid">
-        <div><b>01</b><h3>Quality First</h3><p>We focus on fabric feel, construction and finishing.</p></div>
-        <div><b>02</b><h3>Trend Focused</h3><p>Collections are created around modern, wearable fashion.</p></div>
-        <div><b>03</b><h3>Value Pricing</h3><p>Strong manufacturing focus helps us offer competitive value.</p></div>
+    <section class="categories">
+      <div class="container category-grid">
+        <a href="#men" class="category"><div>👕</div><h3>Men</h3><p>Latest styles</p></a>
+        <a href="#women" class="category"><div>👗</div><h3>Women</h3><p>Trending fashion</p></a>
+        <a href="#kids" class="category"><div>🧸</div><h3>Kids</h3><p>Fun & comfy</p></a>
       </div>
     </section>
 
-    <section class="cta-section">
-      <div>
-        <p class="eyebrow">READY TO SHOP OR PARTNER?</p>
-        <h2>Let's talk <span>fashion.</span></h2>
-        <p>Get the latest catalogue, product details or manufacturing enquiry directly on WhatsApp.</p>
+    <section id="shop" class="products-section">
+      <div class="container">
+        <div class="section-title">
+          <p class="eyebrow">FEATURED COLLECTION</p>
+          <h2>Shop Our Collection</h2>
+          <p>Add your products here — prices and product photos can be changed easily.</p>
+        </div>
+        <div class="products" id="productGrid"></div>
       </div>
-      <a class="btn btn-gold" href="https://wa.me/919012758515?text=Hello%20Kapdo%20Da%20Ghar%2C%20I%20have%20an%20enquiry." target="_blank" rel="noopener">Chat on WhatsApp</a>
     </section>
 
-    <section id="contact" class="contact-section">
-      <div class="section-head">
-        <p class="eyebrow">CONTACT US</p>
-        <h2>Kapdo Da <span>Ghar</span></h2>
+    <section class="why">
+      <div class="container">
+        <div class="section-title"><p class="eyebrow">WHY KAPDODAGHAR</p><h2>Fashion Made Simple</h2></div>
+        <div class="features">
+          <div><b>🚚 Easy Delivery</b><p>Convenient delivery options for your orders.</p></div>
+          <div><b>💳 Secure Payments</b><p>Connect your preferred payment gateway.</p></div>
+          <div><b>⭐ Quality Styles</b><p>Curated fashion for everyday wear.</p></div>
+        </div>
       </div>
-      <div class="contact-grid">
-        <a href="tel:+919012758515"><small>CALL / WHATSAPP</small><strong>+91 90127 58515</strong><span>Talk to our team</span></a>
-        <a href="mailto:Info@kapdodaghar.in"><small>EMAIL</small><strong>Info@kapdodaghar.in</strong><span>Send an enquiry</span></a>
-        <a href="https://instagram.com/kapdodaghar.in" target="_blank" rel="noopener"><small>INSTAGRAM</small><strong>@kapdodaghar.in</strong><span>Follow our latest styles</span></a>
-        <a href="https://www.google.com/maps/search/?api=1&query=H-61%20Sector%2063%20Noida%20Uttar%20Pradesh%20201301" target="_blank" rel="noopener"><small>LOCATION</small><strong>H-61, Sector 63</strong><span>Noida, Uttar Pradesh – 201301</span></a>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container contact-box">
+        <div><p class="eyebrow">GET IN TOUCH</p><h2>Ready to shop?</h2><p>For orders and enquiries, contact us on WhatsApp or Instagram.</p><p class="address"><b>Store Address:</b> H Block, Sector 63, Noida, Uttar Pradesh</p></div>
+        <div class="contact-actions">
+          <a class="btn" href="https://wa.me/919012758515" target="_blank">WhatsApp</a>
+          <a class="btn outline" href="https://instagram.com/kadodaghar.in" target="_blank">Instagram</a>
+        </div>
       </div>
     </section>
   </main>
 
+  <aside id="cart" class="cart">
+    <div class="cart-head"><h3>Your Cart</h3><button onclick="toggleCart()">✕</button></div>
+    <div id="cartItems"><p class="empty">Your cart is empty.</p></div>
+    <div class="cart-total">Total: ₹<span id="cartTotal">0</span></div>
+    <button class="checkout" onclick="checkout()">Order on WhatsApp</button>
+  </aside>
+
   <footer>
-    <div class="footer-brand"><img src="assets/kd-icon-logo.jpg" alt=""> <span>Kapdo Da Ghar</span></div>
-    <p>© 2026 Kapdo Da Ghar. All rights reserved.</p>
-    <p>Trendy Fashion | Best Prices</p>
+    <div class="container footer-inner">
+      <img src="logo.png" alt="KapdoDaGhar.in">
+      <p>© 2026 KapdoDaGhar.in — Trendy Fashion | Best Prices · <a href="https://instagram.com/kadodaghar.in" target="_blank">Instagram @kadodaghar.in</a></p>
+    </div>
   </footer>
 
-  <a class="floating-wa" href="https://wa.me/919012758515?text=Hello%20Kapdo%20Da%20Ghar%2C%20I%20want%20to%20know%20more." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">WA</a>
-  <script src="script.js"></script>
+<script>
+const products = [
+  {id:1, name:"Classic T-Shirt", price:499, category:"Men", image:"https://placehold.co/700x850?text=Men+T-Shirt"},
+  {id:2, name:"Premium Shirt", price:799, category:"Men", image:"https://placehold.co/700x850?text=Men+Shirt"},
+  {id:3, name:"Trendy Dress", price:899, category:"Women", image:"https://placehold.co/700x850?text=Women+Dress"},
+  {id:4, name:"Casual Top", price:599, category:"Women", image:"https://placehold.co/700x850?text=Women+Top"},
+  {id:5, name:"Kids T-Shirt", price:399, category:"Kids", image:"https://placehold.co/700x850?text=Kids+T-Shirt"},
+  {id:6, name:"Kids Outfit", price:699, category:"Kids", image:"https://placehold.co/700x850?text=Kids+Outfit"}
+];
+
+let cart = [];
+
+function renderProducts(){
+  document.getElementById("productGrid").innerHTML = products.map(p => `
+    <article class="product">
+      <img src="${p.image}" alt="${p.name}" loading="lazy">
+      <div class="product-info">
+        <small>${p.category}</small>
+        <h3>${p.name}</h3>
+        <div class="product-bottom"><strong>₹${p.price}</strong><button onclick="addToCart(${p.id})">Add to Cart</button></div>
+      </div>
+    </article>
+  `).join("");
+}
+function addToCart(id){
+  const p = products.find(x=>x.id===id);
+  cart.push(p); renderCart(); document.getElementById("cart").classList.add("open");
+}
+function removeFromCart(i){ cart.splice(i,1); renderCart(); }
+function renderCart(){
+  document.getElementById("cartCount").textContent = cart.length;
+  document.getElementById("cartItems").innerHTML = cart.length ? cart.map((p,i)=>`
+    <div class="cart-item"><span>${p.name}<br><b>₹${p.price}</b></span><button onclick="removeFromCart(${i})">Remove</button></div>
+  `).join("") : '<p class="empty">Your cart is empty.</p>';
+  document.getElementById("cartTotal").textContent = cart.reduce((s,p)=>s+p.price,0);
+}
+function toggleCart(){ document.getElementById("cart").classList.toggle("open"); }
+function checkout(){
+  if(!cart.length){ alert("Please add a product first."); return; }
+  const total = cart.reduce((s,p)=>s+p.price,0);
+  const items = cart.map(p=>p.name+" - ₹"+p.price).join(", ");
+  const phone="919012758515";
+  window.open("https://wa.me/"+phone+"?text="+encodeURIComponent("Hello KapdoDaGhar, I want to order: "+items+". Total: ₹"+total),"_blank");
+}
+renderProducts(); renderCart();
+</script>
 </body>
 </html>
